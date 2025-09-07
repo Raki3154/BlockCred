@@ -7,8 +7,6 @@ A decentralized system where universities issue blockchain-verified digital degr
 - **Smart Contract**: ERC-721 NFT contract for academic credentials
 - **University Authorization**: Only authorized universities can issue credentials
 - **Credential Verification**: Instant global verification of academic credentials
-- **Revocation System**: Ability to revoke credentials if needed
-- **Web Interface**: Modern, responsive web application
 - **IPFS Integration**: Decentralized storage for supporting documents
 - **MetaMask Integration**: Seamless wallet connection
 
@@ -339,3 +337,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Note**: This is a demonstration system. For production use, ensure proper security audits and testing.
+
