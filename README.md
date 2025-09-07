@@ -114,30 +114,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 - Revocation mechanism
 - IPFS metadata support
 
-**Key Functions:**
-
-```solidity
-// Issue a new credential
-function issueCredential(
-    address student,
-    string memory studentName,
-    string memory degreeType,
-    string memory fieldOfStudy,
-    string memory university,
-    uint256 graduationDate,
-    string memory ipfsHash
-) external returns (uint256)
-
-// Verify credential validity
-function isCredentialValid(uint256 tokenId) external view returns (bool)
-
-// Get credential details
-function getCredential(uint256 tokenId) external view returns (Credential memory)
-
-// Revoke credential
-function revokeCredential(uint256 tokenId, string memory reason) external
-```
-
 ## 🌐 Web Interface
 
 ### Main Features
@@ -318,5 +294,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Note**: This is a demonstration system. For production use, ensure proper security audits and testing.
+
 
 
