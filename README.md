@@ -284,16 +284,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Mobile App**: Native mobile application
 - **API Integration**: Third-party system integration
 
-## 📚 Additional Resources
 
-- [Ethereum Documentation](https://ethereum.org/developers/)
-- [OpenZeppelin Contracts](https://openzeppelin.com/contracts/)
-- [Hardhat Documentation](https://hardhat.org/docs/)
-- [IPFS Documentation](https://docs.ipfs.io/)
-
----
-
-**Note**: This is a demonstration system. For production use, ensure proper security audits and testing.
 
 
 
