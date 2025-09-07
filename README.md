@@ -49,25 +49,6 @@ Copy the environment file and configure it:
 cp env.example .env
 ```
 
-Edit `.env` file with your configuration:
-
-```env
-# Ethereum Network Configuration
-SEPOLIA_URL=https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID
-PRIVATE_KEY=your_private_key_here
-
-# Etherscan API Key (for contract verification)
-ETHERSCAN_API_KEY=your_etherscan_api_key_here
-
-# IPFS Configuration (optional)
-IPFS_PROJECT_ID=your_ipfs_project_id
-IPFS_PROJECT_SECRET=your_ipfs_project_secret
-
-# Server Configuration
-PORT=3000
-NODE_ENV=development
-```
-
 ## 🚀 Quick Start
 
 ### 1. Start Local Blockchain (Hardhat)
@@ -337,4 +318,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Note**: This is a demonstration system. For production use, ensure proper security audits and testing.
+
 
